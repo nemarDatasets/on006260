@@ -58,28 +58,28 @@
     ".yml"
   ],
   "description": "This dataset comprises psychophysiological and psychometric data from 76 Mexican children with reading or mathematics learning difficulties, collected to evaluate skill improvements through the Smartick online learning platform. Participants underwent EEG recordings during resting state and task-specific conditions (reading comprehension or arithmetic operations) at baseline and after a three-month intervention period, with parallel psychometric assessments including spelling, reading speed, comprehension, mathematical knowledge, selective attention, and IQ measures.",
-  "methods_description": "EEG recordings were conducted in two conditions: 3-minute eyes-open resting state and task-specific activities (reading aloud with comprehension questions for reading group; two blocks of 20 arithmetic operations for math group). Psychometric evaluations included spelling tests (orthographic and phonological errors), reading speed (words per minute), reading comprehension (multiple-choice), mathematical knowledge assessment, selective attention testing, and IQ measurement. All participants were assessed at baseline (PRE-intervention, ses-1) and after three months (POST-intervention, ses-2). The experimental group engaged with Smartick for three months while the control group received no intervention.",
+  "methods_description": "EEG recordings were conducted during two conditions: 3-minute eyes-open resting state and task-specific activities (reading aloud with comprehension questions for the reading group; two blocks of 20 arithmetic operations for the math group). Psychometric evaluations included spelling tests (orthographic and phonological errors), reading speed (words per minute), reading comprehension (multiple-choice), mathematical knowledge assessment, selective attention testing, and IQ measurement. Participants were randomly assigned to experimental (3-month Smartick intervention) or control groups, with assessments conducted at baseline (PRE-intervention, ses-1) and follow-up (POST-intervention, ses-2).",
   "keywords": [
     {
       "term": "EEG"
     },
     {
-      "term": "learning disabilities"
+      "term": "learning difficulties"
     },
     {
-      "term": "reading difficulties"
+      "term": "reading disorders"
     },
     {
-      "term": "mathematics learning"
+      "term": "dyscalculia"
     },
     {
       "term": "assistive technology"
     },
     {
-      "term": "psychometric assessment"
+      "term": "children"
     },
     {
-      "term": "children"
+      "term": "psychometric assessment"
     }
   ],
   "source_hash": "626e25d292df757b47410c80292f82d007d2ebd0914ede1eb6b76c1fb9bceca2"
