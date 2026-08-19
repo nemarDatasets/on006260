@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology",
+  "description": "This dataset comprises psychometric and electroencephalographic (EEG) data collected from Mexican children with reading or math learning difficulties, aimed at evaluating the efficacy of the assistive online learning platform Smartick in improving academic skills. Data were collected from 76 subjects across two study groups (reading and math difficulties), each divided into experimental and control subgroups, with EEG and psychometric assessments performed before and after a three-month intervention period. The EEG recordings include resting-state and task-related conditions (reading comprehension or arithmetic problem solving), accompanied by psychometric measures such as reading speed, comprehension, math skills, selective attention, and IQ.",
+  "methods_description": "Participants underwent two EEG sessions (pre- and post-intervention), each including a 3-minute eyes-open resting-state recording and a task-related recording. For the reading difficulties group, tasks involved reading aloud and answering comprehension questions; for the math difficulties group, tasks involved solving two blocks of 20 arithmetic operations. Psychometric assessments included spelling, reading speed, reading comprehension, math knowledge, reaction time, selective attention, and IQ tests. EEG data were stored in .set format following BIDS conventions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,6 +14,31 @@
     "Fabiola R. Gómez-Velázquez": {},
     "Luz María Alonso-Valerdi": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Learning Disabilities",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007859"
+    },
+    {
+      "term": "reading skills"
+    },
+    {
+      "term": "mathematics skills"
+    },
+    {
+      "term": "assistive technology"
+    },
+    {
+      "term": "children"
+    },
+    {
+      "term": "cognitive intervention"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006260.v1.0.1",
@@ -38,10 +65,10 @@
       "award_number": "894658"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "3.0 GB (480 files)"
   ],
@@ -56,31 +83,6 @@
     ".tsv",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset comprises psychophysiological and psychometric data from 76 Mexican children with reading or mathematics learning difficulties, collected to evaluate skill improvements through the Smartick online learning platform. Participants underwent EEG recordings during resting state and task-specific conditions (reading comprehension or arithmetic operations) at baseline and after a three-month intervention period, with parallel psychometric assessments including spelling, reading speed, comprehension, mathematical knowledge, selective attention, and IQ measures.",
-  "methods_description": "EEG recordings were conducted during two conditions: 3-minute eyes-open resting state and task-specific activities (reading aloud with comprehension questions for the reading group; two blocks of 20 arithmetic operations for the math group). Psychometric evaluations included spelling tests (orthographic and phonological errors), reading speed (words per minute), reading comprehension (multiple-choice), mathematical knowledge assessment, selective attention testing, and IQ measurement. Participants were randomly assigned to experimental (3-month Smartick intervention) or control groups, with assessments conducted at baseline (PRE-intervention, ses-1) and follow-up (POST-intervention, ses-2).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "learning difficulties"
-    },
-    {
-      "term": "reading disorders"
-    },
-    {
-      "term": "dyscalculia"
-    },
-    {
-      "term": "assistive technology"
-    },
-    {
-      "term": "children"
-    },
-    {
-      "term": "psychometric assessment"
-    }
   ],
   "source_hash": "626e25d292df757b47410c80292f82d007d2ebd0914ede1eb6b76c1fb9bceca2"
 }
